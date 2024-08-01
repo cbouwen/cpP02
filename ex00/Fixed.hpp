@@ -4,10 +4,13 @@
 class Fixed
 {
     private:
-        /* data */
-    public:
-        Fixed(/* args */);
+        int                 _fixed;
+        static const int    _fraction = 8;
+    public:;
+        Fixed();
+        Fixed(const Fixed& copy);
         ~Fixed();
 
-        void    getRawBits();
+        int     getRawBits(void) const;
+        void    setRawBits( int const raw);
 };
