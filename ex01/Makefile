@@ -1,4 +1,4 @@
-NAME = ex00
+NAME = ex01
 FLAGS = -Werror -Wall -Wextra -std=c++98
 CC = c++
 SRC = main.cpp Fixed.cpp
